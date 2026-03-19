@@ -28,7 +28,8 @@ nav{
 
  li:hover{
     color: chocolate;
-    transform: scale(1);
+    transform: scale(1.2);
+     transition: all 0.3s ease-in-out;
 
  }
  .manu a{
@@ -52,7 +53,7 @@ background-size:cover;
 
 }
 .paragraph{
-    font-size: 28px;
+    font-size: 26px;
 }
 
 @keyframes move {
@@ -65,3 +66,21 @@ background-size:cover;
         transform: translateX(0);
     }
 }
+.content :nth-child(1){
+     transform: scale(0.8);
+    animation: move 0.5s  ease-in-out forwards alternate;
+}
+.content :nth-child(2){
+     transform: scale(0.8);
+    animation: move 1s  ease-in-out forwards alternate;
+}
+.content :nth-child(3){
+     transform: scale(0.8);
+    animation: move 2s  ease-in-out forwards alternate;
+}
+.content :nth-child(4){
+     transform: scale(0.8);
+    animation: move 1.2s  ease-in-out forwards alternate;
+}
+ 
+ 
