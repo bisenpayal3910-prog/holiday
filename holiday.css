@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family:Montserrat, sans-serif;
+    color: white;
+
+background-image: url(https://09sanket.github.io/HolidayPlanLandingPage/assets/header.jpg);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-right :20px;
+    padding: 30px; 
+}
+.manu{
+    list-style-type: none;
+    gap: 40px;
+    text-decoration: none;
+    
+
+}
+
+ li:hover{
+    color: chocolate;
+    transform: scale(1);
+
+ }
+ .manu a{
+    text-decoration: none;
+    color: azure;
+ }
+.content{
+    position: absolute;
+    padding: 30px;
+background-color: rgb(22, 39, 46, 0.9);
+    font-size: 2.5em;
+width: 50vw;
+height: 100%;
+    z-index: -1;
+
+background-size:cover;
+    
+}
+.background{
+    display: flex;
+
+}
+.paragraph{
+    font-size: 28px;
+}
+
+@keyframes move {
+    from{
+        transform: translateX(-50px);
+        
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}
