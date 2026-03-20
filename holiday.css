@@ -82,5 +82,42 @@ background-size:cover;
      transform: scale(0.8);
     animation: move 1.2s  ease-in-out forwards alternate;
 }
- 
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .manu {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .background {
+    
+align-items: center;
+gap: 10px;
+
+
+}
+
+.content h1{
+    font-size: 26px;
+    gap: 5px;
+
+}
+
+.content h2 {
+    font-size: 18px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+    align-items: center;
+  }
+
+  input {
+    width: 100%;
+  }
+}
  
